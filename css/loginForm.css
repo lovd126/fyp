@@ -1,0 +1,49 @@
+.login-form-container{
+    width:310px;
+    height: auto;
+    padding: 20px 30px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+    margin-top: 25vh;
+}
+
+ul.login-list{
+    list-style-type: none;
+    /* text-align: center; */
+}
+
+ul.login-list li{
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+ul.login-list li a{
+    
+    font-size: 10px;
+}
+
+ul.login-list li input[type="text"], ul.login-list li input[type="password"]{
+    width: 250px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color:#D3CCCB;
+    border: none;
+    border-radius: 5px;
+}
+
+ul.login-list li input[type="submit"]{
+    width: 250px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+ul.login-list li input[type="submit"]:hover{
+    background-color: #FFF;
+    color: black;
+}

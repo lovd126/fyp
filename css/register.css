@@ -1,0 +1,47 @@
+.register-form{
+    position: absolute;
+    top : 7%;
+    left : 35%;
+    width: 200px;
+
+}
+
+.register-form h1{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 35px;
+
+}
+
+.register-form p{
+    font-size: 15px;
+    margin: 15px 0;
+
+}
+
+.register-form input {
+    font-size: 11px;
+    width: 100%;
+    border:1;
+    padding : 15px 10px;
+    outline : none;
+
+}
+
+.register-form input[type="submit"]{
+    width: 150px;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+
+.register-form input[type="submit"]:hover{
+    background-color: #FFF;
+    color: black;
+
+}
